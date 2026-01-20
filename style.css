@@ -1,0 +1,49 @@
+body {
+    background-color: #CAD593;
+    text-align: center;
+}
+
+.grid {
+    margin: auto;
+    display: grid;
+    gap: 5px;
+    background-color: #243010;
+    max-width: 35%;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cell {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 125%;
+}
+
+.cell:hover {
+    transform: translateY(-3%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#slider {
+    padding: 30px;
+}
+
+#restart {
+    position: fixed;
+    margin: auto;
+    top: 50%;            
+    left: 50%;          
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+    background: #CAD593;
+    opacity: 0.75;
+    z-index: 10;
+    display: none;
+}
